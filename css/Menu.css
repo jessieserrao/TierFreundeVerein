@@ -4,6 +4,13 @@ div#content{
 }
 
 p{
-    padding 3px;
+    padding: 3px;
 }
 
+div#right_bottom{
+    font-weight: bold;
+    position: absolute;
+    top: 710px;
+    right: 50px;
+    margin: 3px;
+}
