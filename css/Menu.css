@@ -1,0 +1,9 @@
+div#content{
+    background-color: lightgray;
+    border: 1px solid lightslategrey;
+}
+
+p{
+    padding 3px;
+}
+
