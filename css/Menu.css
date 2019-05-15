@@ -9,10 +9,6 @@ header{
     background-color: lightgreen;
 }
 
-nav{
-    float: left;
-    width: 195px;
-}
 
 section{
     float: left;
@@ -21,7 +17,12 @@ section{
 
 footer{
     background-color: lightgreen;
-    padding: 10px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0px;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
 }
 
 article{
@@ -34,10 +35,26 @@ p{
     padding: 3px;
 }
 
-div#right_bottom{
-    font-weight: bold;
-    position: absolute;
-    top: 710px;
-    right: 50px;
-    margin: 3px;
-}
+ul#mainMenu  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  ul#mainMenu li  {
+    float: left;
+  }
+  
+  ul#mainMenu li a  {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  ul#mainMenu li a:hover  {
+    background-color: #111111;
+  }
