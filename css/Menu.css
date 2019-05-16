@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body{
     font-family: "Heiti SC", serif;
     width: 800px;
@@ -7,6 +9,8 @@ body{
 
 header{
     background-color: lightgreen;
+    padding-top: 1px;
+    text-align: center;
 }
 
 
@@ -18,11 +22,14 @@ section{
 footer{
     background-color: lightgreen;
     font-weight: bold;
-    position: fixed;
+    position:absolute;
+    top: 700px;
+    left: 175px;
     bottom: 0px;
     margin: 0px;
-    width: 100%;
-    padding: 0px;
+    width: 70%;
+    padding: 2px;
+    text-align: center;
 }
 
 article{
@@ -44,11 +51,11 @@ ul#mainMenu  {
   }
   
   ul#mainMenu li  {
-    float: left;
+      float: left;
   }
   
   ul#mainMenu li a  {
-    display: block ;
+    display: block;
     color: white;
     text-align: center;
     padding: 16px;
@@ -57,11 +64,4 @@ ul#mainMenu  {
   
   ul#mainMenu li a:hover  {
     background-color: #111111;
-  }
-
-  article{
-      padding: 1px;
-      text-align: left;
-      text-justify: auto;
-
   }
