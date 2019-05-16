@@ -1,5 +1,5 @@
 body{
-    font-family: Helvetica;
+    font-family: "Heiti SC", serif;
     width: 800px;
     margin: 20px auto;
     border: black 1px solid;
@@ -48,7 +48,7 @@ ul#mainMenu  {
   }
   
   ul#mainMenu li a  {
-    display: block;
+    display: block ;
     color: white;
     text-align: center;
     padding: 16px;
@@ -57,4 +57,11 @@ ul#mainMenu  {
   
   ul#mainMenu li a:hover  {
     background-color: #111111;
+  }
+
+  article{
+      padding: 1px;
+      text-align: left;
+      text-justify: auto;
+
   }
