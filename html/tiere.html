@@ -6,10 +6,28 @@
     <meta charset="utf-8" />
     <title>Gerettete Tiere</title>
     <link rel="stylesheet" type="text/css" href="../css/tiere.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
 </head>
 
 <body>
-    <div id="main">
+    <header>
+        <img id="logo" src="../images/logo.png" alt="Logo">
+        <h1> Tierfreunde Verein Bamberg</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Startseite </a></li>
+                <li><a href="veranstaltungen.html">Veranstaltungen</a></li>
+                <li><a href="helfen.html">Helfen</a></li>
+                <span id="tiere">
+                    <li><a href="tiere.html">Gerettete Tiere</a></li>
+                    <li class="dropdown" id="huhn"><a href="huehner.html">Hühner</a></li>
+                    <li class="dropdown" id="katze"><a href="katzen.html">Katzen</a></li>
+                </span>
+            </ul>
+        </nav>
+    </header>    
+
+    <div class="content" id="overview">
         <h1>Gerettete Tiere</h1>
         <p>
             Der Tierfreunde Verein Bamberg hilft Tieren in Not.<br>
@@ -21,6 +39,13 @@
             <li><a href="katzen.html">Gerettete Katzen</a></li>
         </ul>
     </div>
+
+    <footer>
+        <p>
+            <a href="html/impressum.html">Impressum</a> |
+            <a href="html/kontakt.html">Kontakt</a>
+        </p>
+    </footer>
 </body>
 
 </html>

@@ -1,10 +1,9 @@
-body {
+header, footer, #main {
     font-family: "Heiti SC", serif;
     background-color: white;
 }
 
 header h1 {
-    
     font-family: Tahoma, sans-serif;
 }
 
@@ -15,6 +14,7 @@ header {
     top: 0px;
     left: 0px;
     width: 100%;
+    min-width: 600px;
     height: 130px;
     z-index: 2;
 }
@@ -44,11 +44,6 @@ header {
     max-width: 1200px;
 }
 
-section{
-    float: left;
-    width: 595px;
-}
-
 footer{
     background-color: rgb(165, 50, 29);
     position: fixed;
@@ -61,39 +56,69 @@ footer{
 }
 
 footer p {
+    padding: 3px;
     margin: 0px;
 }
 
-p {
-    padding: 3px;
-}
-
-ul#menu  {
+header ul  {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
     background-color:  rgb(185, 56, 34);
-  }
+    min-width: 700px;
+}
   
-  ul#menu li  {
+header ul li  {
       border-right: 1px solid black;
       width: 150px;
       float: left;
-  }
+}
   
-  ul#menu li a  {
+header ul li a {
     display: block;
     color: white;
     text-align: center;
     padding: 16px;
     text-decoration: none;
-  }
+}
   
-  ul#menu li a:hover  {
+header ul li a:hover {
     background-color:rgb(151, 42, 23);
-  }
+    color: white;
+}
 
+.dropdown {
+    display: none;
+    position: absolute;
+    left: 452px;
+    background-color: inherit;
+    border: 1px solid black;
+}
+
+#huhn {
+    top: 131px;
+}
+
+#katze {
+    top: 181px;
+}
+
+#tiere {
+    width: 150px;
+}
+
+header span {
+    background-color: inherit;
+}
+
+#tiere:hover .dropdown{
+    display: block;
+}
+
+.dropdown:hover {
+    background-color: rgb(151, 42, 23);
+}
 
 a:link, a:visited{
     color: white;

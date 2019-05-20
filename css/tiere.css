@@ -1,12 +1,13 @@
-body {
+.content {
     width: 910px;
     margin: auto;
+    margin-top: 160px;
 }
 
-h1 {
+.content h1 {
     text-align: center;
-    font-size: 60px;
-    height: 70px;
+    font-size: 45px;
+    height: 50px;
 }
 
 #description {
@@ -16,23 +17,23 @@ h1 {
     text-align: center;
 }
 
-section img {
+.content section img {
     border-radius: 14px;
     border: 3px solid #252525;
     margin: 0px 40px 40px 40px;
     float: left;
 }
 
-section h2 {
+.content section h2 {
     text-align: center;
     padding: 10px 0px;
 }
 
-section p {
+.content section p {
     font-size: 20px;
 }
 
-section {
+.content section {
     clear: left;
     margin: 30px auto 0px auto;
 }
@@ -41,12 +42,12 @@ hr {
     width: 100%;
 }
 
-p {
+.content p {
     font-size: 25px;
     text-align: center;
 }
 
-li {
+.content li {
     text-align: center;
     list-style: none;
     font-size: 30px;
@@ -54,24 +55,27 @@ li {
     list-style-position: inside;
 }
 
-a {
+.content a {
     font-weight: bold;
 }
 
-a:link {
+.content a:link {
     color: black;
 }
 
-a:visited {
+.content a:visited {
     color: black;
 }
 
-a:hover {
+.content a:hover {
     color: #0047a5;
 }
 
-#main {
-    border: 2px solid black;
+#overview {
     height: 400px;
-    margin: 80px auto;
+    padding-top: 20px;
+}
+
+#overview a {
+    text-decoration: underline;
 }
