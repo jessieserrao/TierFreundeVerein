@@ -10,7 +10,7 @@
     height: 50px;
 }
 
-#description {
+.content #description {
     font-size: 22px;
     height: 120px;
     margin: auto;
@@ -38,7 +38,7 @@
     margin: 30px auto 0px auto;
 }
 
-hr {
+.content hr {
     width: 100%;
 }
 
