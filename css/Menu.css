@@ -24,8 +24,7 @@ header {
     width: 1000px;
     min-width: 900px;
     max-width: 1200px;
-    margin: auto;
-    margin-top: 160px;
+    margin: 160px auto 40px auto;
     font-size: 1.5em;
 }
 
@@ -36,7 +35,7 @@ header {
 }
 
 #main video {
-    margin: 30px auto;
+    margin: 10px auto;
     width: 80%;
 }
 
