@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Kontakt</title>
-    <link rel="stylesheet" type="text/css" href="../css/kontakt.css">
-    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/kontakt.css">
+    <link rel="stylesheet" href="../css/Menu.css">
 </head>
-
 <body>
-    <header>
-        <img id="logo" src="../images/logo.png" alt="Logo">
-        <h1> Tierfreunde Verein Bamberg</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Startseite </a></li>
-                <li><a href="veranstaltungen.html">Veranstaltungen</a></li>
-                <li><a href="helfen.html">Helfen</a></li>
-                <span id="tiere">
+<header>
+    <img id="logo" src="../images/logo.png" alt="Logo">
+    <h1> Tierfreunde Verein Bamberg</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Startseite </a></li>
+            <li><a href="veranstaltungen.html">Veranstaltungen</a></li>
+            <li><a href="helfen.html">Helfen</a></li>
+            <span id="tiere">
                     <li><a href="tiere.html">Gerettete Tiere</a></li>
                     <li class="dropdown" id="huhn"><a href="huehner.html">Hühner</a></li>
                     <li class="dropdown" id="katze"><a href="katzen.html">Katzen</a></li>
                 </span>
-            </ul>
-        </nav>
-    </header>
+        </ul>
+    </nav>
+</header>
 
-    <div class="content">
-        <h1>Kontaktieren Sie uns</h1>
-        <h4>Haben Sie Fragen an uns? Bitte füllen Sie folgendes Formular aus,
-                wir setzen uns sobald wie möglich mit Ihnen in Verbindung.</h4>
+<h1 id="titelOfKontakt">Kontaktieren Sie uns</h1>
+    <h4 id="center">Haben Sie Fragen an uns? Bitte fühlen Sie folgende Formular aus,
+            wir setzen uns sobald wie möglich mit Ihnen in Verbindung.</h4>
 
-        <form action="contact.php" method="POST">
-            Name:<br>
-            <input id="nameFormular" type="text" name="user" size="58" ><br><br>
-            Email Adresse:<br>
-            <input id="email" type="email" name="email" size="58"><br><br>
-            Nachricht:<br>
-            <textarea rows="10" cols="60"></textarea><br><br>
-            <input type="submit" size="100" value="Senden">
+    <section class="formular">
+        <form action="/....beispiel.php">
+            <fieldset>
+                <label> Benutzername: </label>
+                <input id="nameFormular" type="text" name="user" size="58" ><br>
+                <label> Email Adresse: </label>
+                <input id="email" type="email" name="email" size="58"><br>
+                <label > Nachricht: </label><br>
+                <textarea rows="10" cols="70">...</textarea><br>
+                <input type="submit" size="100" value="Senden">
+            </fieldset>
         </form>
-    </div>
-
-    <footer>
-        <p>
-            <a href="impressum.html">Impressum</a> |
-            <a href="kontakt.html">Kontakt</a>
-        </p>
-    </footer>
+    </section>
+<footer>
+    <p>
+        <a href="html/impressum.html">Impressum</a> |
+        <a href="html/kontakt.html">Kontakt</a>
+    </p>
+</footer>
 </body>
 </html>
