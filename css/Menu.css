@@ -127,3 +127,7 @@ a:link, a:visited{
 a:hover {
     color: #fffd7a;
 }
+
+.current {
+    background-color: rgb(105, 28, 14);
+}
